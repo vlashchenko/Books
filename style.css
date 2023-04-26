@@ -1,0 +1,50 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+#allPictures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid green;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid brown;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.image {
+  border: 1px solid red;
+  padding: 10px;
+  height: 150;
+  width: 330px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+}
+
+.textDiv {
+  border: 1px solid blue;
+  padding: 10px;
+  height: 150px;
+  width: 330px;
+  margin-bottom: 5px;
+  display: none; /* make the element not render at all */
+  box-sizing: border-box;
+  align-items: center; /* center the text vertically */
+  justify-content: center; /* center the text horizontally */
+}
+
+text {
+  display: none;
+  text-align: center;
+}
